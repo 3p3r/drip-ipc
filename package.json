@@ -1,0 +1,20 @@
+{
+  "name": "drip-ipc",
+  "version": "1.0.0",
+  "description": "tiny C++ library for interleaved IPC messaging through stdio",
+  "main": "index.js",
+  "scripts": {
+    "build": "cmake-js build"
+  },
+  "keywords": [
+    "ipc",
+    "interleaved",
+    "stdio",
+    "wasi"
+  ],
+  "author": "Sepehr Laal",
+  "license": "MIT",
+  "devDependencies": {
+    "cmake-js": "^7.2.1"
+  }
+}
